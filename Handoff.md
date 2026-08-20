@@ -1,8 +1,8 @@
-# Gazebo Sim Tutorial — Codex Handoff
+# gazebo-sim-tutorial-kr — Codex Handoff
 
 ## 1. 문서 목적
 
-이 문서는 `Gazebo Sim Tutorial` 저장소를 로컬 Codex가 초기화하고, 이후 튜토리얼 문서와 예제 코드를 일관된 구조로 확장하기 위한 작업 지침서이다.
+이 문서는 `gazebo-sim-tutorial-kr` 저장소를 로컬 Codex가 초기화하고, 이후 튜토리얼 문서와 예제 코드를 일관된 구조로 확장하기 위한 작업 지침서이다.
 
 이 프로젝트의 핵심 목표는 **Ubuntu 24.04 LTS + ROS 2 Jazzy + Gazebo Harmonic 환경을 위한 한국어 Gazebo Sim 튜토리얼을 만들고, 동일한 GitHub 저장소에서 문서와 실행 가능한 예제 코드를 함께 관리하며, 문서 사이트를 GitHub Pages로 공개하는 것**이다.
 
@@ -119,7 +119,7 @@ Ubuntu 22.04 LTS + ROS 2 Humble + Gazebo Fortress 튜토리얼은 Jazzy + Harmon
 초기 저장소는 다음 구조를 기준으로 만든다.
 
 ```text
-gazebo-harmonic-tutorial/
+gazebo-sim-tutorial-kr/
 ├── README.md
 ├── Handoff.md
 ├── LICENSE
@@ -305,7 +305,7 @@ GitHub Actions가 매 배포 시 문서를 빌드하고 Pages artifact로 배포
 Project Pages 형태를 기본으로 가정한다.
 
 ```text
-https://<username>.github.io/gazebo-harmonic-tutorial/
+https://<username>.github.io/gazebo-sim-tutorial-kr/
 ```
 
 ---
@@ -1448,6 +1448,8 @@ Launch 파일:
 초기 navigation 개념:
 
 ```yaml
+site_name: gazebo-sim-tutorial-kr
+
 nav:
   - 홈: index.md
   - 시작하기:
